@@ -13,8 +13,8 @@ phases:
   build:
     commands:
       # test
-      echo Building...
-      npm run build
+      - echo Building...
+      - npm run build
 artifacts:
   files:
     - "**/*"
